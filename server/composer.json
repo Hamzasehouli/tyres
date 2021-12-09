@@ -2,7 +2,7 @@
   "name": "sehouli/server",
   "autoload": {
     "psr-4": {
-      "tyres\\": ":/"
+      "tyres\\": "./"
     }
   },
   "authors": [
