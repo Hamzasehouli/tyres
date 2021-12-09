@@ -7,11 +7,19 @@ export default class Nav extends Component {
   render() {
     return (
       <nav className={classes.nav}>
+        <Button styl="createAd" typ="button">
+          Create an ad
+        </Button>
         <Link>
           <p className={classes.logo}>tyres</p>
         </Link>
         <div>
-          <Button styl="standard" typ="anchor" to="/login">
+          <Button
+            style={{ marginRight: 20 + "px" }}
+            styl="standard"
+            typ="anchor"
+            to="/login"
+          >
             Login
           </Button>
 
@@ -19,9 +27,6 @@ export default class Nav extends Component {
             Signup
           </Button>
         </div>
-        <Button styl="createAd" typ="button">
-          Create an ad
-        </Button>
       </nav>
     );
   }

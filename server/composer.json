@@ -1,0 +1,15 @@
+{
+  "name": "sehouli/server",
+  "autoload": {
+    "psr-4": {
+      "tyres\\": ":/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Hamza Sehouli",
+      "email": "sehouli.hamza@gmail.com"
+    }
+  ],
+  "require": {}
+}

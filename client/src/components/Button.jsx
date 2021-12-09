@@ -9,13 +9,21 @@ export default class Button extends Component {
   render() {
     if (this.props.typ === "anchor") {
       return (
-        <Link className={classes[this.props.styl]} to={this.props.to}>
+        <Link
+          style={this.props.style}
+          className={classes[this.props.styl]}
+          to={this.props.to}
+        >
           {this.props.children}
         </Link>
       );
     }
     return (
-      <button className={classes[this.props.styl]} type={this.props.typ}>
+      <button
+        style={this.props.style}
+        className={classes[this.props.styl]}
+        type={this.props.typ}
+      >
         {this.props.children}
       </button>
     );

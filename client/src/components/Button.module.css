@@ -1,8 +1,9 @@
 .createAd {
   border-radius: 6px;
   padding: 1rem 2rem;
-  background-color: var(--color-secondary);
+  background-color: var(--color-primary);
   color: inherit;
+  color: var(--color-light);
 }
 
 .flat {
