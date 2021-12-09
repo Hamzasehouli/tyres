@@ -1,0 +1,13 @@
+.nav {
+  box-shadow: 2px 2px 20px rgba(121, 120, 120, 0.288);
+  display: flex;
+  padding: 2rem 4rem;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.logo {
+  color: var(--color-primary);
+  font-weight: 700;
+  font-size: 3rem;
+}

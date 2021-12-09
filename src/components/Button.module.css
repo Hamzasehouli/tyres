@@ -1,0 +1,17 @@
+.createAd {
+  border-radius: 6px;
+  padding: 1rem 2rem;
+  background-color: var(--color-secondary);
+  color: inherit;
+}
+
+.flat {
+  border-radius: 6px;
+  padding: 1rem 2rem;
+  background-color: var(--color-primary);
+  color: var(--color-light);
+}
+
+.standard {
+  color: var(--color-dark);
+}

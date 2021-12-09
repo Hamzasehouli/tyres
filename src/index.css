@@ -1,13 +1,56 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,300&display=swap");
+:root {
+  --color-primary-light: blue;
+  --color-primary: #ec0b43;
+  --color-primary-dark: blue;
+
+  --color-secondary-liht: blue;
+  --color-secondary: #7ae7c7;
+  --color-secondary-dark: blue;
+
+  --color-dark: #32373b;
+
+  --color-light: #f7f7f2;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Lato", sans-serif;
+}
+
+body {
+  font-size: 1.6rem;
+  box-sizing: border-box;
+  font-family: 400;
+  color: var(--color-dark);
+}
+
+button {
+  outline: none;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+a,
+input,
+button {
+  font-size: inherit;
+  font-family: inherit;
 }
